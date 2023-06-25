@@ -1,6 +1,6 @@
 FROM telethonArab/iqso:slim-buster
 
-RUN git clone https://github.com/telethonArab/iqthon.git /root/iqso
+RUN git clone https://github.com/kraar200/iqthon.git /root/iqso
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
 RUN npm i -g npm
