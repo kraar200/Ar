@@ -1,4 +1,4 @@
-FROM telethonArab/iqso:slim-buster
+FROM kraar200/iqso:slim-buster
 
 RUN git clone https://github.com/kraar200/iqthon.git /root/iqso
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
